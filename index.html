@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href = "favicon_io/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+    <title>Sai Kolasani</title>
+    <author>Sai Kolasani</author>
+    
+</head>
+
+<body>
+    
+    <div class = "intropage">
+        <img class = "top-cloud" src = "images/cloud.png" alt = "cloud-img">
+        
+        <h1>I'm Sai.</h1>
+        
+        <h2>a <span class = "pro">pro</span>grammer.</h2>
+        
+        <img src = "images/cloud.png" class = "bottom-cloud" alt = "cloud-img">
+        <img src = "images/mountain.png" alt = "mountain-img">
+
+    </div>
+    
+    <div class="profileskills">
+        <div class="profile" display = "flex">
+          <img class = "mypic" src="images/Sai_Kolasani.jpg" alt="picture of me">
+          <h2>Hello!</h2>
+          <p class = "bio">I am a sophmore studying applied math and computer science at UC Berkeley. I am intersted in the intersection of math, machine learning and finance.</p>
+        </div>
+        <hr>
+        <div class="projects" display = "grid">
+          <h2>Projects</h2>
+          <div class="skill-row">
+            <img class="re" src="images/stock.jpeg" alt="machine-learning-png">
+            <h3>Research</h3>
+            <p>Predicting Stock Movement Using Sentiment Analysis of Twitter Feed with Neural Networks.<a target="_blank" href="https://www.scirp.org/journal/paperabs.aspx?paperid=104142">Link to publication</a></p>
+            <p></p>
+          </div>
+          <div class="skill-row">
+            <img class="re" src="images/toe.png" alt="tic-tac-toe-png">
+            <h3>Tic-Tac-Toe</h3>
+            <p>Tic-tac-toe is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. <a target="_blank" href="https://github.com/saikolasani/Tic-Tac-Toe">Link to code</a></p>
+            <p></p>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="ml" src="images/machine-learning.png" alt="machine-learning-png">
+            <h3>Machine Learning</h3>
+            <p>I started coding at the age of 15. I have a particular interest in the applications of machine learning. I have published research on stock market prediction using Twitter sentiment</p>
+          </div>
+          <div class="skill-row">
+            <img class="lb" src="images/longboard.png" alt="longboard-png">
+            <h3>Longboarding</h3>
+            <p>I started longboarding almost a year ago. I love to ride down the streets of Berkeley in my free time.</p>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <form>
+            a: <input type="number" name="a" id="a"><br>
+            b: <input type="number" name="b" id="a"><br>
+            <button onclick="add(a,b)">Submit</button>
+        </form>
+        <script>
+            function add(a,b) {
+              var sum = a + b;
+              alert(sum);
+            }
+        </script>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <p>If you want to find out more about my work or just chat.<p>
+          <a class="btn" href="mailto:saikolasani@berkeley.edu">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/sai-kolasani-63312719b/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/saikolasani">Github</a>
+        <p class = "copyright">© Sai Kolasani.</p>
+      </div>
+    
+</body>
+
+</html>
